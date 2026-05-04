@@ -1,0 +1,31 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int n = 15;
+        int k = 3;
+        int j = 2;
+        int m = 18;
+        int p = 8;
+        int total;
+        int d1 = m%k;
+        int d2 = p%j;
+        
+        if (d1==0 && d2==0){
+           int  a1 = m/k;
+            int a2 = p/j;
+            int q = a1+a2;
+         total = n - q;
+        }
+        else {
+            int a1 = m/k;
+            int a2 = p/j;
+            int q = a1+a2+d1+d2;
+          total = n - q;
+        }
+        
+        System.out.println(total);
+        
+    }
+}
