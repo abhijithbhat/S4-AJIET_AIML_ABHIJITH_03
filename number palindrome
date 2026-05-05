@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Solution {
+    public boolean isPalindrome(int x) {
+        int originalnum = x;
+        int reversednum = 0;
+        
+        while(x>0){
+            int lastdigit = x%10;
+            reversednum = (reversednum*10)+lastdigit;
+            x = x/10;
+        }
+
+        if(reversednum == originalnum){
+            return true;
+        }
+        else{
+            return false;
+        }
+        
+
+        
+    }
+}
