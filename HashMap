@@ -12,6 +12,7 @@ class Main {
         System.out.println(m.get(102));
         m.remove(102);
         System.out.println(m);
+        System.out.println(m.containsKey(103));
         m.clear();
         System.out.println(m);
         
