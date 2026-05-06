@@ -1,0 +1,24 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.ArrayList;
+class Main {
+    public static void main(String[] args) {
+        ArrayList <String> list  = new ArrayList<>();
+        list.add("Java");
+        list.add("Python");
+        list.add("Abhijith");
+        System.out.println("The list is -" + list);
+        System.out.println("Using get function");
+        System.out.println(list.get(2));
+        list.set(1,"Dart");
+        System.out.println("List after set function \n" + list);
+        System.out.println("Removing the element in the list");
+        list.remove(1);
+        System.out.println(list);
+        System.out.println("The current size of the list is ");
+        System.out.println(list.size());
+        System.out.println("Adding element to specific index in list");
+        list.add(0,"SQL");
+        System.out.println(list)
+    }
+}
