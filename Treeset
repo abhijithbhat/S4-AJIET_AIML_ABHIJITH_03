@@ -1,0 +1,18 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+    import java.util.TreeSet;
+class Main {
+    public static void main(String[] args) {
+        TreeSet<Integer> ai = new TreeSet <>();
+        ai.add(2);
+        ai.add(20);
+        ai.add(2);
+        
+        System.out.println(ai);
+        System.out.println(ai.size());
+        ai.remove(2);
+        System.out.println(ai);
+        ai.clear();
+        System.out.println(ai);
+    }
+}
